@@ -14,8 +14,8 @@ A simple **Tetris clone** made with **Vanilla JavaScript** and powered by **Vite
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/guiuCM/Tetris_game.git
-cd Tetris_game
+git clone https://github.com/guiuCM/tetris-game.git
+cd tetris-game
 npm install
 npm run dev
 ```
