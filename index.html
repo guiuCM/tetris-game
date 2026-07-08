@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+  </head>
+  <body>
+    <div id="app">
+    <section id="start-game">
+      <h1>Tetris</h1>
+      <button id="start-button">Start Game</button>
+      <button id="scores-button">View High Scores</button>
+    </section>
+    
+    <section id="high-scores" style="display: none;">
+      <h2>High Scores</h2>
+      <div id="scores-list"></div>
+      <button id="back-button">Back to Game</button>
+    </section>
+    
+    <div id="game-ui">
+      <div id="current-score">Score: 0</div>
+      <canvas></canvas>
+    </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
